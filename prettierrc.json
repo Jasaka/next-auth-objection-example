@@ -1,0 +1,14 @@
+{
+  "printWidth": 80,
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.scss",
+      "options": { "parser": "scss" }
+    },
+    {
+      "files": ["*.ts", "*.tsx"],
+      "options": { "parser": "typescript" }
+    }
+  ]
+}
